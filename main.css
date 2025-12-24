@@ -1,3 +1,15 @@
+
+@keyframes body {
+  from {
+    transform: translate(100px, 100px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -9,6 +21,8 @@
 }
 body {
   background-color: rgb(41, 41, 41);
+  animation: body 2s 1s linear forwards; 
+  opacity: 0;
 }
 
 .hero {
